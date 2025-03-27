@@ -12,19 +12,19 @@
             <img src="image/logo.jpg" alt="">Es Teler Enak
         </div>
         <ul class="navlist">
-            <a href="">TENTANG KAMI</a>
-            <a href="">DAFTAR HARGA</a>
+            <a href="#about">TENTANG KAMI</a>
+            <a href="#price">DAFTAR HARGA</a>
         </ul>
     </header>
     <section class="homepage">
         <div class="front">
             <div class="isi">
-               Es Teler dan Buah Premium
-               Nikmati kesegaran es teler dan es buah dengan bahan-bahan berkualitas yang menyegarkan hari Anda!
+               <h1>Es Teler dan Buah Premium</h1>
+               <p>Nikmati kesegaran es teler dan es buah dengan bahan-bahan berkualitas yang menyegarkan hari Anda!</p>
             </div>
         </div>
         <div class="back">
-            <button type="">Lihat Harga</button>
+            <button class="round-button">Lihat Harga</button>
         </div>
     </section>
     
@@ -35,13 +35,13 @@
         </div>
         <div class="about-content">
             <div class="about-text">
-                Sejarah Es Teler Enak
-                Es Teler Enak adalah brand penyedia es teler dan es buah premium sejak tahun 2015. Kami menggunakan bahan-bahan segar dan berkualitas tinggi untuk memberikan pengalaman kuliner yang tak terlupakan bagi pelanggan kami.
-                Setiap porsi es teler dan es buah kami dibuat dengan resep turun-temurun yang telah disempurnakan selama bertahun-tahun. Kami memastikan setiap sajian menggunakan buah-buahan segar, santan kental yang creamy, dan sirup yang pas manis.
-                Es Teler Enak juga menawarkan layanan catering untuk acara-acara khusus seperti pesta ulang tahun, pernikahan, arisan, dan acara kantoran. Kami siap memenuhi kebutuhan acara Anda dengan sajian es teler dan es buah yang segar dan lezat.
+                <h1>Sejarah Es Teler Enak</h1><br>
+                <p>Es Teler Enak adalah brand penyedia es teler dan es buah premium sejak tahun 2015. Kami menggunakan bahan-bahan segar dan berkualitas tinggi untuk memberikan pengalaman kuliner yang tak terlupakan bagi pelanggan kami.</p><br>
+                <p>Setiap porsi es teler dan es buah kami dibuat dengan resep turun-temurun yang telah disempurnakan selama bertahun-tahun. Kami memastikan setiap sajian menggunakan buah-buahan segar, santan kental yang creamy, dan sirup yang pas manis.</p><br>
+                <p>Es Teler Enak juga menawarkan layanan catering untuk acara-acara khusus seperti pesta ulang tahun, pernikahan, arisan, dan acara kantoran. Kami siap memenuhi kebutuhan acara Anda dengan sajian es teler dan es buah yang segar dan lezat.</p>
             </div>
             <div class="about-image">
-                ...
+                <img src="./image/es-teler2.jpg" alt="Es Teler 1">
             </div>
         </div>
     </section>
@@ -69,26 +69,77 @@
                     <td class="price-cell">Rp 25.000</td>
                     <td class="price-cell">Rp 45.000</td>
                 </tr>
-                ...
+
+                <tr>
+                    <td class="size-cell">Es Teler Durian</td>
+                    <td class="price-cell">Rp 22.000</td>
+                    <td class="price-cell">Rp 25.000</td>
+                    <td class="price-cell">Rp 35.000</td>
+                    <td class="price-cell">Rp 65.000</td>
+                </tr>
+
+                <tr>
+                    <td class="size-cell">Es Teler Mangga</td>
+                    <td class="price-cell">Rp 17.000</td>
+                    <td class="price-cell">Rp 20.000</td>
+                    <td class="price-cell">Rp 28.000</td>
+                    <td class="price-cell">Rp 52.000</td>
+                </tr>
+
+                <tr>
+                    <td class="size-cell">Es Teler Kacang Merah</td>
+                    <td class="price-cell">Rp 17.000</td>
+                    <td class="price-cell">Rp 20.000</td>
+                    <td class="price-cell">Rp 28.000</td>
+                    <td class="price-cell">Rp 50.000</td>
+                </tr>
+
+                <tr>
+                    <td class="size-cell">Es Buah Segar</td>
+                    <td class="price-cell">Rp 14.000</td>
+                    <td class="price-cell">Rp 16.000</td>
+                    <td class="price-cell">Rp 22.000</td>
+                    <td class="price-cell">Rp 42.000</td>
+                </tr>
+
+                <tr>
+                    <td class="size-cell">Es Buah Yoghurt</td>
+                    <td class="price-cell">Rp 17.000</td>
+                    <td class="price-cell">Rp 20.000</td>
+                    <td class="price-cell">Rp 28.000</td>
+                    <td class="price-cell">Rp 52.000</td>
+                </tr>
+
+                <tr>
+                    <td class="size-cell">Es Buah Special</td>
+                    <td class="price-cell">Rp 20.000</td>
+                    <td class="price-cell">Rp 24.000</td>
+                    <td class="price-cell">Rp 32.000</td>
+                    <td class="price-cell">Rp 60.000</td>
+                </tr>
             </tbody>
         </table>
     </section>
     <footer>
         <div class="footer-container">
             <div class="footer-info">
-                Es Teler Enak
-                Jl. Pangeran Diponegoro No. 123, Jakarta Pusat
-                📱 +62 812-3456-7890
+                <h1>Es Teler Enak</h1><br>
+                Jl. Pangeran Diponegoro No. 123, Jakarta Pusat<br><br>
+                📱 +62 812-3456-7890<br><br>
                 ✉️ info@estelerenaksekali.com
             </div>
             <div class="footer-form">
                 Berlangganan Info Promo
-                ...
-            </div>
+                <form method="post">
+                    <p><input type="text" name="name" id="name" placeholder="Nama Anda"></p>
+                    <p><input type="email" name="email" id="email" placeholder="Email Anda"></p>
+                    <input type="submit" value="Langganan"> 
+                </form>
+            </div><hr>
         </div>
         <div class="copyright">
-            &copy; 2025 Es Teler Enak. Semua Hak Dilindungi.
-            -- Made By NRP - Nama --
+            &copy; 2025 Es Teler Enak. Semua Hak Dilindungi.<br>
+            -- Made By 2472012 - Jason --
         </div>
     </footer>
 </body>

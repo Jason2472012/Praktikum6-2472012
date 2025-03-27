@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fef5f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fef5f0;
+    color: chocolate;
+}
+
+.icon{
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon img{
+    width: 70px;
+}
+
+.navlist {
+    display: flex;
+    gap: 10px;
+}
+
+.navlist li {
+    margin-left: 20px;
+}
+
+.navlist a {
+    text-decoration: none;
+    color: chocolate;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navlist a:hover {
+    color: red;
+    border-radius: 10px;
+    background-color: #ddd;
+    height: 20px;
+}
+ /*PEMBATAS*/
+
+.homepage {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url("./image/es-teler.jpg") ;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 200px;
+}
+
+.homepage h1 {
+    font-size: xx-large;
+}
+
+.homepage p {
+    font-size: large;
+    margin-top: 10px;
+}
+
+.front{
+    color: white;
+}
+
+.back{
+    padding-top: 30px;
+}
+
+.round-button {
+    background-color: #ff5733;
+    color: white; 
+    border: none; 
+    border-radius: 40px; 
+    padding: 15px 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+
+}
+
+/* PEMBATAS */
+
+.about {
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.section-title{
+    font-weight: bold;
+    color: chocolate;
+    font-size: xx-large;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.about-text {
+    max-width: 60%;
+    margin-left: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.about-image img {
+    max-width: 100%; 
+    height: 100%;                   
+    border-radius: 8px;                 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-image {
+    max-width: 500px;                   
+}
+
+/* PEMBATAS */
+
+.price-list {
+    margin: 50px; 
+    padding: 20px; 
+}
+
+.section-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold; 
+    color: #d75a25; 
+    margin-bottom: 20px; 
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.price-table th, .price-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.price-table th {
+    background-color: #d75a25; 
+    color: white; 
+    font-weight: bold; 
+}
+
+.price-table .size-cell {
+    text-align: left; 
+    color: chocolate;
+    font-weight: bold;
+}
+
+.price-table .price-cell {
+    text-align: center; 
+    font-weight: bold;
+}
+
+/* PEMBATAS */
+
+.footer-container {
+    display: flex;
+    background-color: chocolate;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+    font-size: 14px;
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-form {
+    padding: 30px;
+    flex: 2;
+}
+
+.footer-form form p {
+    margin: 10px 0;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="email"] {
+    width: 75%; 
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+.footer-form input[type="submit"] {
+    background-color: #fef5f0; 
+    color: chocolate; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer-form input[type="submit"]:hover {
+    font-weight: bolder; 
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background-color: chocolate;
+}
