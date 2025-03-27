@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: grid;
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "h h h h"
+    "s c c c"
+    "s f f f";
+}
+
+header{
+    background-color: #ff0000;
+    grid-area: h;
+    color: white;
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px;
+}
+
+header p{
+    font-size: 20px;
+    padding: 0;
+}
+header .search{
+    width: 40%;
+}
+header div.search input {
+    font-size: 17px;
+    width: 100%;
+}
+
+.sidebar{
+    grid-area: s;
+    border-right:2px solid #969696;  
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 9px;
+    font: 15px;
+    font-weight: 500;
+}
+
+.sidebar .active{
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.content{
+    margin: 10px;
+    grid-area: c;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows:repeat(3,auto) ;
+}
+
+.text{
+    display: flex;
+    margin: auto;
+}
+
+.item{
+    width: 250px;
+}
+
+.video{
+    background-color: white;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.video-img{
+    width: 100%;
+    height: 150px;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+}
+
+.title{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.channel-name{
+    color: #969696;
+    font-size: 13px;
+    font-weight: 600;
+}
+footer{
+    grid-area: f;
+    background-color: #d0d0d0;
+    height: 40px;
+    padding: 10px;
+}
